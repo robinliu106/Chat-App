@@ -61,7 +61,7 @@ io.on("connection", (socket) => {
     socket.on("sendMessage", async (message, callback) => {
         const filter = new Filter();
         const user = getUser(socket.id);
-        const dumbTranslate = true;
+        const dumbTranslate = false;
 
         if (filter.isProfane(message)) {
             message = filter.clean(message);
