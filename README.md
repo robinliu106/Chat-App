@@ -1,4 +1,4 @@
-# Chat-App
+# Chat with Friends
 Chat with friends live with Socket.IO
 
 https://rliu-chat-app-2.herokuapp.com
